@@ -20,7 +20,7 @@ export function HowItWorksSection() {
   return (
     <section
       id="how-it-works"
-      className="relative mx-auto mt-32 max-w-6xl rounded-3xl border border-white/5 bg-white/5 px-6 py-16 backdrop-blur-xl md:px-12"
+      className="relative mx-auto max-w-6xl rounded-3xl border border-white/5 bg-white/5 px-6 py-16 backdrop-blur-xl md:mt-32 md:px-12"
     >
       <div className="absolute inset-0 -z-10 bg-[var(--gradient-section)] opacity-60" />
       <SectionHeading

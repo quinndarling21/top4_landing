@@ -21,7 +21,7 @@ export function CommunitySection() {
   return (
     <section
       id="community"
-      className="mx-auto mt-32 max-w-6xl rounded-3xl border border-white/5 bg-gradient-to-br from-white/8 via-white/5 to-white/10 px-6 py-16 backdrop-blur-2xl md:px-12"
+      className="mx-auto max-w-6xl rounded-3xl border border-white/5 bg-gradient-to-br from-white/8 via-white/5 to-white/10 px-6 py-16 backdrop-blur-2xl md:mt-32 md:px-12"
     >
       <SectionHeading
         eyebrow="Stay in the loop"

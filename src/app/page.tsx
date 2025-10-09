@@ -8,7 +8,7 @@ import { Footer } from "@/components/footer";
 export default function Home() {
   return (
     <>
-      <main className="relative mx-auto flex w-full max-w-[1440px] flex-col gap-24 px-4 pb-24 md:px-8 lg:px-10">
+      <main className="relative mx-auto flex w-full max-w-[1440px] flex-col gap-16 px-4 pb-24 md:gap-24 md:px-8 lg:px-10">
         <Hero />
         <HowItWorks />
         <Community />

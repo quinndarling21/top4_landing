@@ -7,7 +7,7 @@ import { SectionHeading } from "./section-heading";
 
 export function FAQSection() {
   return (
-    <section id="faq" className="mx-auto mt-32 max-w-5xl px-2">
+    <section id="faq" className="mx-auto max-w-5xl px-2 md:mt-32">
       <SectionHeading
         eyebrow="FAQ"
         title="Quick answers before you start."

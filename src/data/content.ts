@@ -12,7 +12,7 @@ export const heroContent = {
     href: "#community",
   },
   metrics: [
-    { label: "Categories to explore", value: "150+" },
+    { label: "Categories to explore", value: "100+" },
     { label: "Avg. game time", value: "5 min" },
     { label: "Players per game", value: "2-8" },
   ],
@@ -36,48 +36,6 @@ export const howItWorks = [
     description:
       "Pitch, roast, and defend every pick — then vote for the winner to crown the debate champ.",
     icon: "users",
-  },
-];
-
-export const features = [
-  {
-    title: "Party-ready decks",
-    description:
-      "Curated packs span pop culture, nostalgia, food wars, travel favorites, and guilt-free chaos.",
-    icon: "stars",
-  },
-  {
-    title: "Create your own prompts",
-    description:
-      "Drop inside jokes or hyper-specific challenges to keep your crew guessing.",
-    icon: "wand",
-  },
-  {
-    title: "Live voting scoreboard",
-    description:
-      "Results animate in real-time so everyone feels the sting (or glory) of the final tally.",
-    icon: "bar-chart-3",
-  },
-  {
-    title: "History & rematches",
-    description:
-      "Revisit legendary drafts and spin them up again when new players join the party.",
-    icon: "history",
-  },
-];
-
-export const testimonials = [
-  {
-    quote:
-      "Top 4 became our go-to pregame. The debates get so chaotic in the best way.",
-    name: "Jess, Brooklyn",
-    tag: "Plays with her trivia league",
-  },
-  {
-    quote:
-      "My family played on vacation and we were crying laughing by round two.",
-    name: "Marcus, Chicago",
-    tag: "Trip planner & chaos curator",
   },
 ];
 
