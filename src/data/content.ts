@@ -13,7 +13,7 @@ export const heroContent = {
   },
   metrics: [
     { label: "Categories to explore", value: "100+" },
-    { label: "Avg. game time", value: "5 min" },
+    { label: "Avg. game time", value: "10 min" },
     { label: "Players per game", value: "2-8" },
   ],
 };
