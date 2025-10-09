@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+:root {
+  --background: #04091c;
+  --foreground: #f5f8ff;
+  --accent-primary: #ff2d92;
+  --accent-secondary: #16c9ff;
+  --accent-purple: #6e5bff;
+  --surface: rgba(19, 28, 56, 0.85);
+  --surface-muted: rgba(33, 45, 84, 0.75);
+  --muted: #99a0c8;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: color-mix(in srgb, var(--accent-primary) 60%, var(--accent-secondary));
+  --color-secondary: var(--accent-secondary);
+  --color-surface: var(--surface);
+  --color-surface-muted: var(--surface-muted);
+  --color-muted: var(--muted);
+  --gradient-hero: linear-gradient(145deg, #031240 0%, #06103a 40%, #1d1649 100%);
+  --gradient-pill: linear-gradient(135deg, #ff2d92, #ffa84b);
+  --gradient-card: linear-gradient(160deg, rgba(255, 45, 146, 0.9), rgba(22, 201, 255, 0.85));
+  --gradient-section: radial-gradient(circle at top right, rgba(110, 91, 255, 0.5), transparent 55%);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --radius-lg: 24px;
+  --shadow-elevated: 0 20px 45px -18px rgba(15, 23, 56, 0.7);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: radial-gradient(circle at 15% 25%, rgba(255, 45, 146, 0.18), transparent 55%),
+    radial-gradient(circle at 85% 30%, rgba(22, 201, 255, 0.18), transparent 45%),
+    var(--gradient-hero);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--accent-primary) 65%, white);
+  color: #05080f;
+}
