@@ -8,17 +8,12 @@ const sections = [
   {
     title: "Acceptance of terms",
     body:
-      "By downloading or using Top 4 you agree to these Terms of Use. If you are under 13, you may not use the app. If you are between 13 and 18, you must have parental permission.",
+      "By downloading or using Top 4 you agree to these Terms of Use.",
   },
   {
     title: "User conduct",
     body:
       "You agree not to use Top 4 for unlawful purposes, to harass other players, or to share content that violates the rights of others. We reserve the right to suspend access for violations.",
-  },
-  {
-    title: "Purchases & subscriptions",
-    body:
-      "Optional premium packs or subscriptions are billed through Apple. Prices are subject to change with notice. Apple handles payment processing and refund requests.",
   },
   {
     title: "Changes to the service",
