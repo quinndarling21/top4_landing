@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 const supportChannels = [
   {
     title: "Email support",
-    description: "Need help or found a bug? Email us anytime at support@top4.app.",
+    description: "Need help or found a bug? Email us anytime at support@top4game.com.",
     href: "mailto:support@top4game.com",
     actionLabel: "Email support",
   },
