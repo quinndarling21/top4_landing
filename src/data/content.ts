@@ -5,7 +5,7 @@ export const heroContent = {
     "Build outrageous Top 4 lists with friends, pitch your picks, and vote for the champion.",
   primaryCta: {
     label: "Download on the App Store",
-    href: "https://apps.apple.com/",
+    href: "https://apps.apple.com/us/app/top-4/id6752107223",
   },
   secondaryCta: {
     label: "Join the community",

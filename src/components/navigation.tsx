@@ -59,7 +59,7 @@ export function Navigation() {
         </div>
         <div className="flex items-center gap-3">
           <ButtonLink
-            href="https://apps.apple.com/"
+            href="https://apps.apple.com/us/app/top-4/id6752107223"
             variant="primary"
             size="sm"
             ariaLabel="Download Top 4 on the App Store"
