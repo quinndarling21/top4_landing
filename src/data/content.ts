@@ -34,7 +34,7 @@ export const howItWorks = [
   {
     title: "Debate and Decide",
     description:
-      "Pitch, roast, and defend every pick — then vote for the winner to crown the debate champ.",
+      "Pitch, roast, and defend every pick — then vote for the winner and crown the Top 4 champ.",
     icon: "users",
   },
 ];
