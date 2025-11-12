@@ -2,7 +2,7 @@ export const heroContent = {
   badge: "Draft · Debate · Decide",
   headline: "Put your Top 4 to the test.",
   subheadline:
-    "Build outrageous Top 4 lists with friends, pitch your picks, and vote for the champion.",
+    "Draft outrageous Top 4 lists with friends, pitch your picks, and vote for the champion.",
   primaryCta: {
     label: "Download on the App Store",
     href: "https://apps.apple.com/us/app/top-4/id6752107223",
