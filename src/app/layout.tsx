@@ -18,13 +18,13 @@ export const metadata: Metadata = {
     template: "%s · Top 4",
   },
   description:
-    "Top 4 turns any hangout into a high-energy showdown. Draft categories, debate your picks, and vote for the best list. Download for iOS.",
-  metadataBase: new URL("https://top4.app"),
+    "Draft outrageous Top 4 lists, pitch your picks, and vote for the champion. Available now on iOS.",
+  metadataBase: new URL("https://top4game.com"),
   openGraph: {
     title: "Top 4",
     description:
-      "Build outrageous Top 4 lists with friends, pitch your picks, and vote for the champion. Available now on iOS.",
-    url: "https://top4.app",
+      "Draft outrageous Top 4 lists, pitch your picks, and vote for the champion. Available now on iOS.",
+    url: "https://top4game.com",
     siteName: "Top 4",
     images: [
       {
