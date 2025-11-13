@@ -41,7 +41,7 @@ const structuredData = {
       ],
       applicationSubCategory: "Party game",
       url: "https://top4game.com",
-      image: "https://top4game.com/og-image.png",
+      image: "https://top4game.com/opengraph-image",
       description:
         "Top 4 is the fast-paced iOS party game where friends draft, debate, and crown outrageous rankings in minutes.",
       featureList: [
@@ -122,16 +122,10 @@ export const metadata: Metadata = {
     siteName: "Top 4",
     images: [
       {
-        url: "/og-image.png",
+        url: "/opengraph-image",
         width: 1200,
         height: 630,
-        alt: "Top 4 app hero artwork",
-      },
-      {
-        url: "/og-image-square.png",
-        width: 1080,
-        height: 1080,
-        alt: "Top 4 party game preview",
+        alt: "Top 4 – Draft. Debate. Decide.",
       },
     ],
     type: "website",
@@ -143,7 +137,7 @@ export const metadata: Metadata = {
     description:
       "The iOS party game for friends who love to draft and debate outrageous rankings.",
     creator: "@top4game",
-    images: ["/og-image.png"],
+    images: ["/opengraph-image"],
   },
   icons: {
     icon: [
