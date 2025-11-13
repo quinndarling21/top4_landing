@@ -1,6 +1,7 @@
 export const heroContent = {
   badge: "Draft · Debate · Decide",
-  headline: "Put your Top 4 to the test.",
+  headline:
+    "Top 4 is the iOS party ranking game where friends draft outrageous picks and debate every round.",
   subheadline:
     "Draft outrageous Top 4 lists with friends, pitch your picks, and vote for the champion.",
   primaryCta: {

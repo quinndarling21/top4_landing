@@ -1,8 +1,41 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
+const PRIVACY_LAST_UPDATED = "January 15, 2025";
+
 export const metadata: Metadata = {
-  title: "Privacy Policy",
+  title: "Privacy Policy · Top 4 Party Game",
+  description:
+    "Top 4 does not collect, store, or share personal data. Read the full privacy policy for details on offline play and contact info.",
+  alternates: {
+    canonical: "/privacy",
+  },
+  openGraph: {
+    title: "Top 4 Privacy Policy",
+    description:
+      "Learn how the Top 4 party game handles data — no accounts, no tracking, and everything stays on your device.",
+    url: "https://top4game.com/privacy",
+    type: "article",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Top 4 party game hero artwork",
+      },
+    ],
+  },
+  twitter: {
+    title: "Top 4 Privacy Policy",
+    description:
+      "Review Top 4’s privacy commitments, including zero data collection and offline gameplay support.",
+    card: "summary",
+    images: ["/og-image.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function PrivacyPolicyPage() {
@@ -10,12 +43,7 @@ export default function PrivacyPolicyPage() {
     <main className="mx-auto max-w-4xl px-6 py-20 text-white/80">
       <h1 className="text-4xl font-semibold text-white">Privacy Policy</h1>
       <p className="mt-4 text-sm text-white/60">
-        Last updated{" "}
-        {new Date().toLocaleDateString("en-US", {
-          month: "long",
-          day: "numeric",
-          year: "numeric",
-        })}
+        Last updated {PRIVACY_LAST_UPDATED}
       </p>
 
       <section className="mt-10 space-y-8 text-sm leading-7">
@@ -119,4 +147,3 @@ export default function PrivacyPolicyPage() {
     </main>
   );
 }
-

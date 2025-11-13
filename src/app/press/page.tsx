@@ -3,7 +3,38 @@ import Link from "next/link";
 import { pressHighlights } from "@/data/content";
 
 export const metadata: Metadata = {
-  title: "Press Kit",
+  title: "Press Kit · Top 4 Party Game",
+  description:
+    "Grab Top 4 press resources: product overview, launch timeline, and contact info for assets or interviews.",
+  alternates: {
+    canonical: "/press",
+  },
+  openGraph: {
+    title: "Top 4 Press Kit",
+    description:
+      "Covering Top 4? Explore highlights, upcoming assets, and reach the team for interviews and media requests.",
+    url: "https://top4game.com/press",
+    type: "article",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Top 4 party game hero artwork",
+      },
+    ],
+  },
+  twitter: {
+    title: "Top 4 Press Kit",
+    description:
+      "Media resources and contact details for covering the Top 4 party game.",
+    card: "summary",
+    images: ["/og-image.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function PressPage() {

@@ -2,7 +2,38 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Support",
+  title: "Support · Top 4 Party Game",
+  description:
+    "Need help with the Top 4 party game? Reach our team for bug reports, account questions, and general support.",
+  alternates: {
+    canonical: "/support",
+  },
+  openGraph: {
+    title: "Top 4 Support",
+    description:
+      "Find the fastest way to contact the Top 4 team for troubleshooting, feedback, or privacy questions.",
+    url: "https://top4game.com/support",
+    type: "article",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Top 4 party game hero artwork",
+      },
+    ],
+  },
+  twitter: {
+    title: "Top 4 Support",
+    description:
+      "Email the Top 4 team for help with the party game, feature requests, or bug reports.",
+    card: "summary",
+    images: ["/og-image.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 const supportChannels = [

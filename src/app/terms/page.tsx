@@ -1,7 +1,40 @@
 import type { Metadata } from "next";
 
+const TERMS_EFFECTIVE_DATE = "January 15, 2025";
+
 export const metadata: Metadata = {
-  title: "Terms of Use",
+  title: "Terms of Use · Top 4 Party Game",
+  description:
+    "Review the official Top 4 Terms of Use covering player conduct, service changes, and how to reach the team for legal questions.",
+  alternates: {
+    canonical: "/terms",
+  },
+  openGraph: {
+    title: "Top 4 Terms of Use",
+    description:
+      "Understand the rules for playing Top 4, including acceptable use, service updates, and contacts.",
+    url: "https://top4game.com/terms",
+    type: "article",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Top 4 party game hero artwork",
+      },
+    ],
+  },
+  twitter: {
+    title: "Top 4 Terms of Use",
+    description:
+      "Read the Terms of Use for the Top 4 party game, including conduct guidelines and contact info.",
+    card: "summary",
+    images: ["/og-image.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 const sections = [
@@ -32,7 +65,7 @@ export default function TermsPage() {
     <main className="mx-auto max-w-4xl px-6 py-20 text-white/80">
       <h1 className="text-4xl font-semibold text-white">Terms of Use</h1>
       <p className="mt-4 text-sm text-white/60">
-        Effective {new Date().toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" })}
+        Effective {TERMS_EFFECTIVE_DATE}
       </p>
       <div className="mt-10 space-y-6 text-sm leading-7">
         {sections.map((section) => (

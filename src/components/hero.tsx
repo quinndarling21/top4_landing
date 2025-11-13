@@ -37,11 +37,12 @@ export function HeroSection() {
         >
           {heroContent.badge}
         </motion.span>
+        <h1 className="sr-only">{heroContent.headline}</h1>
         <motion.div
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.1, duration: 0.7, ease: "easeOut" }}
-          className="mt-6 w-full max-w-[360px]"
+          className="mt-5 w-full max-w-[360px]"
         >
           <Image
             src="/top4_3d.png"
