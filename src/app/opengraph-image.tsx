@@ -23,6 +23,7 @@ export default function OpenGraphImage() {
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
+          alignItems: "center",
           padding: "88px 120px",
           color: "#F8F6FF",
           background: backgroundGradient,
@@ -81,8 +82,16 @@ export default function OpenGraphImage() {
             <div
               style={{
                 fontSize: 124,
-                fontWeight: 800,
+                fontWeight: 1000,
                 lineHeight: 1,
+                width: 420,
+                textAlign: "center",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                fontFamily:
+                  "'Trebuchet MS', 'Gill Sans', 'Avenir Next', 'Helvetica Neue', sans-serif",
+                letterSpacing: 1,
               }}
             >
               Top 4
